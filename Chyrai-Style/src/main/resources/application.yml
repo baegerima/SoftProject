@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/chyraistyle
+    username: postgres
+    password: 1234
+  jpa:
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
+#openweather:
+#  api:
+#    key: 79d8a112823681c7f7dfabdbd2c24c1e
+#    url: https://api.openweathermap.org/data/2.5
